@@ -6,7 +6,7 @@ let x = +prompt('введите год рождения')
 x = x> 1900? x :1900
 let y = +prompt('введите нынешний год')
 y =  y > x ? y : 2021
-let name= prompt('введите ваше имя')
+let userName= prompt('введите ваше имя')
 let z = min(x,y)
 
-console.info( name + ' , ваш возраст ' + z)
+console.info( userName + ' , ваш возраст ' + z)
